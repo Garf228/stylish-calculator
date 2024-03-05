@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>calc</h1>
+      </header>
+      <div id="calc-output">0</div>
+      <section id="calc-buttons">
+        <div class="button-rows">
+          <div class="four-row">
+            <button class="number-button">7</button>
+            <button class="number-button">8</button>
+            <button class="number-button">9</button>
+            <button id="divi">/</button>
+          </div>
+          <div class="four-row">
+            <button class="number-button">4</button>
+            <button class="number-button">5</button>
+            <button class="number-button">6</button>
+            <button id="addi">+</button>
+          </div>
+          <div class="four-row">
+            <button class="number-button">1</button>
+            <button class="number-button">2</button>
+            <button class="number-button">3</button>
+            <button id="subt">-</button>
+          </div>
+          <div class="four-row">
+            <button id="decimal">.</button>
+            <button class="number-button">0</button>
+
+            <button id="delete-button">del</button>
+            <button id="mult">x</button>
+          </div>
+          <div class="two-row">
+            <button id="reset-button">CLR</button>
+            <button id="equal">=</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
